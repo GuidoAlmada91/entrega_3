@@ -1,0 +1,12 @@
+{% extends "miApp/madre.html" %}
+
+{% block contenidoquecambia %}
+Contenido de HTML cursos
+<br>
+{{nombre}}
+<br>
+{% for camada in camadas %}
+    {{camada}}
+    <br>
+{%endfor%}
+{% endblock %}
